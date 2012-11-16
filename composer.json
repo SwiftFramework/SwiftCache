@@ -1,0 +1,27 @@
+{
+    "name": "swiftframework/cache",
+    "type": "library",
+    "description": "Cache library for PHP5.3+",
+    "keywords": ["cache", "acp", "memcached"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Axel Etcheverry",
+            "email": "axel@etcheverry.biz",
+            "homepage": "http://www.axel-etcheverry.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Swift\\Cache\\": ""
+        }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "mageekguy/atoum": "master-dev"
+    },
+    "target-dir": "Swift/Cache",
+    "minimum-stability": "dev"
+}
