@@ -2,7 +2,7 @@
     "name": "swiftframework/cache",
     "type": "library",
     "description": "Cache library for PHP5.3+",
-    "keywords": ["cache", "acp", "memcached"],
+    "keywords": ["cache", "apc", "memcached"],
     "license": "MIT",
     "authors": [
         {
