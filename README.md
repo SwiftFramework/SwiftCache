@@ -11,6 +11,10 @@ system:
 
     echo $cache->get('foot');
 
+    $cache->remove('foot');
+
+    $cache['test'] = 'bar';
+
 Resources
 ---------
 
