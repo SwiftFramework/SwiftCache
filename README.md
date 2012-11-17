@@ -4,9 +4,9 @@ Cache Component
 The example below demonstrates how you can set up a fully working cache
 system:
 
-    use Swift\Cache\ApcStore;
+    use Swift\Cache\Apc;
 
-    $cache = new ApcStore();
+    $cache = new Apc();
     $cache->set('foot', 'bar');
 
     echo $cache->get('foot');
