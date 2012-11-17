@@ -1,6 +1,8 @@
 Cache Component
 =================
 
+[![Build Status](https://secure.travis-ci.org/SwiftFramework/SwiftCache.png)](http://travis-ci.org/SwiftFramework/SwiftCache)
+
 The example below demonstrates how you can set up a fully working cache
 system:
 
